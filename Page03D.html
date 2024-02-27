@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>ROMUSHA'S RENT</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.5.0/semantic.min.css">
+        <link rel="icon" href="romushalogo.jpg">  
+    </head>
+    <body>
+        <header>
+            <nav class="ui black inverted pointing fixed menu">
+              <a class="header item" href="home.html"><img class="ui mini circular image" src="romushalogo.jpg" alt="Logo Web" style="margin-right: 10px;"> Romusha's Rent</a>
+              <a class="right item" href="home.html">Home</a>
+              <a class="item" href="Page03A.html">Daftar Komik</a>
+              <a class="item" href="Page03B.html">Daftar Peminjam</a>
+              <a class="item" href="Page03C.html">Tambah Komik</a>
+              <a class="active item" href="Page03D.html" style="margin-right: 10px;">Tambah Peminjam</a>
+            </nav>
+         </header>
+         <main class="ui segment">
+            <h2 class="ui black centered header" style="margin-top: 5%;" >
+                <i class="user icon"></i>Form Menambahkan Daftar Peminjam</h2>
+            <div class="ui inverted segment" style="background-color: green;margin:0% 25% 5% 25%;border-radius: 10px;">                  
+            <br><br>
+            <form class="ui green inverted form" style="margin-left: 20%;">
+                <div class="ten wide field">
+                <label style="font-size: medium;" for="id" >ID </label>
+                <input type="number" id="id" name="nomor">
+                </div><br>
+                <div class="ten wide field">
+                <label style="font-size: medium;" for="nama" >Nama </label>
+                <input type="text" id="nama" name="judul"  placeholder="Masukkan Nama" >
+                </div><br>
+                <div class="ten wide field">
+                <label style="font-size: medium;" for="email">Email</label>
+                <input type="email" id="email" name="email">
+                </div><br>
+                <button class="ui black button" type="submit">Tambah</button>
+                <br><br>
+            </form>
+            </div>
+        </main>
+        <footer class="ui inverted black vertical footer segment">    
+            <address class="ui center aligned header">
+            Copyright © 2024 Tugas PBW
+            <br>
+            Created by Romusha's Rent 
+            </address>
+        </footer>
+    <!-- <script>
+        function tambahBaris() {
+            const id = document.getElementById('ID').value;
+            const nama = document.getElementById('Nama').value;
+            const email = document.getElementById('email').value;
+
+            // Buat objek peminjam baru
+            const newPeminjam = {
+                "ID": id,
+                "Nama": nama,
+                "Email": email
+            };
+
+            // Kirim permintaan POST ke server untuk menyimpan data baru dalam file JSON
+        }
+    </script> -->
+
+    </body>
+   
+</html>
